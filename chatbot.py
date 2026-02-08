@@ -135,8 +135,18 @@ def run_chatbot():
             # Display response
             print(f"\n🤖 Assistant: {response}")
 
-            # Store memory
-            store_memory(mem0_client, user_input, response, user_id)
+            # Ask user if they want to store this in memory
+            print("\n💾 Store this exchange in memory for future reference?")
+            while True:
+                save_choice = input("   (yes/no): ").strip().lower()
+                if save_choice in ["yes", "y"]:
+                    store_memory(mem0_client, user_input, response, user_id)
+                    break
+                elif save_choice in ["no", "n"]:
+                    print("⏭️  Skipped memory storage")
+                    break
+                else:
+                    print("   ⚠️  Please enter 'yes' or 'no'")
 
             # Update conversation history
             conversation_history.append({"role": "user", "content": user_input})
