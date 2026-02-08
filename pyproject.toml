@@ -1,0 +1,11 @@
+[project]
+name = "chatbot-with-memory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "groq>=1.0.0",
+    "mem0ai>=1.0.3",
+    "python-dotenv>=1.2.1",
+]
