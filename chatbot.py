@@ -65,7 +65,7 @@ def chat_with_groq(groq_client, messages: list) -> str:
     )
     return response.choices[0].message.content
 
-
+_ = None  
 def store_memory(
     mem0_client, user_input: str, response: str, user_id: str = "abdullah_01"
 ):
