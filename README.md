@@ -1,6 +1,6 @@
 # Stateful Chatbot with Groq & Mem0
 
-A powerful chatbot that combines **Groq's LLM capabilities** with **Mem0's long-term memory** to create a stateful, learning AI assistant — available both as a **CLI tool** and a **Streamlit web app**.
+A powerful chatbot that combines **Groq's LLM capabilities** with **Mem0's long-term memory** to create a stateful, learning AI assistant  available both as a **CLI tool** and a **Streamlit web app**.
 
 ![Chatbot Screenshot](assets/chatbot-screenshot.PNG)
 
