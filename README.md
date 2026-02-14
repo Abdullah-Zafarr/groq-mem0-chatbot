@@ -2,9 +2,7 @@
 
 A powerful chatbot that combines **Groq's LLM capabilities** with **Mem0's long-term memory** to create a stateful, learning AI assistant — available both as a **CLI tool** and a **Streamlit web app**.
 
-<!-- Screenshot: Open the app at http://localhost:8501, take a screenshot, and save it as assets/chatbot-screenshot.png -->
-<!-- Then uncomment the line below: -->
-<!-- ![Chatbot Screenshot](assets/chatbot-screenshot.png) -->
+![Chatbot Screenshot](assets/chatbot-screenshot.PNG)
 
 ## Features
 
@@ -93,7 +91,7 @@ chatbot-with-memory/
 ├── .env                # Environment variables (keep secret!)
 ├── pyproject.toml      # Project dependencies
 ├── assets/
-│   └── chatbot-screenshot.png
+│   └── chatbot-screenshot.PNG
 ├── README.md           # This file
 └── .gitignore          # Git ignore rules
 ```
